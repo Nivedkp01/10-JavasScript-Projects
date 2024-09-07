@@ -1,0 +1,61 @@
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(154, 154, 237);
+}
+
+h1{
+    text-align: center;
+    color: aliceblue;
+    
+
+}
+
+.input{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    /* Resetting all styles */
+    width: 300px;
+    height: 50px;
+    
+    margin-bottom: 0;
+    border: none;
+    background-color: transparent;
+    
+  
+
+    /* Add more properties as needed */
+}
+button{
+    height: 50px;
+    width: 130px;
+    border: none;
+    margin: 0;
+    margin-top: 1px;
+    
+    background-color: rgb(120, 120, 236);
+    outline: 0;
+}
+button:hover{
+    background-color: blue;
+    color: white;
+    border: none;
+  
+}
+.form{
+    display: flex;
+    border: none;
+    border-radius: 10px;
+    border: 0.2px solid black;
+    
+}
+
+.btn{
+    display: none;
+}

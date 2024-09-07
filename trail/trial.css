@@ -1,0 +1,11 @@
+#h{
+    color: aquamarine;
+    background-color: burlywood;
+}
+.new{
+    border: 5px solid black;
+}
+
+.invisible{
+    visibility: hidden;
+}

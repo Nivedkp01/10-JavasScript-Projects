@@ -1,0 +1,105 @@
+.head{
+    font-size: 3rem;
+}
+
+
+.container{
+    
+    background: linear-gradient(to right,#f2eeee,#f5cece);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.note{
+    width: 50%;
+    padding: 10px;
+    
+}
+
+.create{
+    border: none;
+    border-radius: 15px;
+    height: 40px;
+    width: 200px;
+}
+
+.content{
+    min-height: 150px;
+    width: 100%;
+    background-color: white;
+    position: relative;
+}
+
+.del{
+    position: absolute;
+    margin: 5px;
+    right: 0;
+    bottom: 5px;
+}
+.add{
+    position: absolute;
+    margin: 5px;
+    right: 40px;
+    bottom: 5px;
+}
+
+.input{
+    appearance: none;
+    outline: none;
+    width: 80%;
+    min-height:250px ;
+    border: none;
+    border-radius: 15px;
+}
+
+.submitted-note{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.new{
+    background-color: aliceblue;
+    padding: 10px;
+    margin: 10px;
+}
+
+.details{
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.d1{
+    width: 40%;
+    height: 20px;
+}
+.d2{
+    width: 40%;
+    height: 20px;
+}
+/* @media (min-width:600px) {
+    .container{
+        width: 80%;
+    }
+} */
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    background-color: aliceblue;
+
+}
+.realContent{
+    background-color: rgb(241, 245, 245);
+}
+.note {
+    width: 50%;
+    padding: 10px;
+    position: sticky; /* Make the left section sticky */
+    top: 0; /* Stick to the top */
+}

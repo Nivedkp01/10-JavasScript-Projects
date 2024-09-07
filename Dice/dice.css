@@ -1,0 +1,50 @@
+body
+{
+    background-color: #111;
+}
+
+.head{
+    color: rgb(21, 243, 84);
+    text-align: center;
+    font-size: 8rem;
+}
+
+.para{
+    color: azure;
+    font-size: 2rem;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.dice{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    
+}
+.para2{
+ position: relative;
+}
+
+.img1{
+    width: 200px;
+    height: 200px;
+}
+.img2{
+    width: 200px;
+    height: 200px;    
+}
+.win{
+    color: azure;
+    text-align: center;
+    font-size: 5rem;
+}
+
+.d2{
+    display: flex;
+    flex-direction: column;
+}

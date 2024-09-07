@@ -1,0 +1,113 @@
+.card{
+    margin: auto;
+    width: 100%;
+    
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom right, rgb(113, 154, 241), rgb(72, 255, 167));
+    
+}
+body{
+    color: aliceblue;
+    align-items: center;
+}
+
+.search{
+    padding: 10px;
+}
+
+.input{
+    width: 80%;
+    height: 30px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    margin: 10px 5px 0;
+    padding: 10px;
+    
+}
+.btn
+{
+    height: 50px;
+    width: 50px;
+    flex: 1;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+}
+
+.image{
+    width: 200px;
+}
+
+.img-div{
+    margin-top: 5px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.details{
+    display: flex;
+}
+
+.humidity{
+    width: 50%;
+    position: relative;
+    left: 0;
+    display: flex;
+  
+    justify-content:start;
+    align-items: center;
+}
+
+.wind{
+    width:50%;
+    position: relative;
+    right: 0;
+   line-height: 1px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.image1{
+    width: 100px;
+    height: 100px;
+}
+
+.temp
+{
+    font-size: 6rem;
+}
+
+body{
+    line-height: 1px;
+}
+h5{
+    font-size: 18px;
+}
+
+.weather{
+    display: none;
+}
+.err{
+    padding: 10px;
+    color: rgb(83, 2, 2);
+    display: none;
+}
+
+@media (max-width:600px) {
+    .card{
+        width: 100%;
+    }
+}
+
+
+@media (min-width:1000px) {
+    .card{
+        width: 500px;
+    }
+}

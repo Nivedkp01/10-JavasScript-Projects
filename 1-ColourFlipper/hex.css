@@ -1,0 +1,60 @@
+.hexi{
+    background-color: rgb(237, 237, 108);
+}
+
+body{
+    text-align: center;
+    /* align-items: center; */
+    font-family: 'Dancing Script', cursive;
+
+    
+}
+
+.navbar{
+    height: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: space-around;
+    color: rgb(13, 13, 14);
+    background-color: rgb(239, 239, 227);
+    text-align: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    
+}
+
+
+.u
+{
+    text-align: center;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.l {
+    display: inline-block; /* Ensure the <li> elements are block elements */
+    margin: 0 10px; /* Adjust margins as needed */
+}
+
+.navbar a {
+    text-decoration: none; /* Remove underline */
+    color: #131212; /* Text color */
+    font-size: 16px; /* Font size */
+}
+
+
+.navbar a:hover {
+    color: rgb(245, 89, 97); /* Text color on hover */
+}
+
+.box{
+    width: 300px;
+    height: 300px;
+    border: 10px solid black;
+    padding: 10px;
+    background-color: aqua;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="image.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="input">
+            <h1 class="head">Image Search Engine</h1>
+            <div class="form">
+                <input type="text" placeholder="Search An Image Here... " class='searchBox'>
+                <button class="btn">Search</button> <!-- Corrected class name -->
+            </div>
+            <div class="result">
+            </div>
+            <button class="show-more">Show More</button> <!-- Corrected class name -->
+
+        </div>
+
+    </div>
+
+    <script>
+        const searchBox = document.querySelector('.searchBox');
+        const accessKey = 'FiTyQbMhcT-rZeyhYDckVZ_375hIDE1lete8T_c78sE'; // Wrapped in quotes
+        let page = 1;
+
+        async function searchImages() {
+            const keyWord = searchBox.value;
+            const url = `https://api.unsplash.com/search/photos?page=${page}&query=${keyWord}&client_id=${accessKey}`;
+            const response = await fetch(url);
+            const data = await response.json();
+
+            console.log(data);
+        }
+
+        document.querySelector('.form').addEventListener('submit', (e) => { // Changed event listener target to form
+            e.preventDefault();
+            page = 1;
+            searchImages();
+        });
+    </script>
+</body>
+</html>
